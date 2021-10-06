@@ -3,7 +3,7 @@ name: ejemplo de acciones
 on: [push]
 jobs:
   Primer-Github-Actions:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Bienvenido a GITHUB Actions"
       - run: echo "Ejecutando en ${{ runner.os }}"
