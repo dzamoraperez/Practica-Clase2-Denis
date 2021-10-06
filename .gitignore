@@ -1,0 +1,9 @@
+#indica los archivos que nunca se deben enviar al servidor
+*.txt
+
+
+#excluye carpetas que usan node
+node_modules/
+
+#si es un proyecto C#
+build/
